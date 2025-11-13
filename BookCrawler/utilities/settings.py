@@ -12,8 +12,15 @@ BOT_NAME = "bookcrawler"
 SPIDER_MODULES = ["bookcrawler.spiders"]
 NEWSPIDER_MODULE = "bookcrawler.spiders"
 
-MONGO_URI = "mongodb+srv://hansjiguer_db_user:Jdoczephyr171@cluster0.n9fcnkn.mongodb.net/?appName=Cluster0"
-MONGO_DATABASE = "books_db"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+
+MONGO_URI = os.getenv('MONGO_URI')
+MONGO_DATABASE = os.getenv("MONGO_DATABASE")
 
 LOG_LEVEL = "WARNING"
 LOG_FILE = "book_scraper.log"
