@@ -15,9 +15,11 @@ For API, FastAPI was used and as for database, MongoDB is selected.
 The API endpoints are configured to follow the requirements of the project
 
 # Running
+To setup, clone this repository and download project dependencies.
+
 Check and update .env to your liking. However, test credentials for test crawling is provided using an empty MongoDB database. 
 
-Run API using uvicorn main:app --reload
+In the terminal, run API using "uvicorn main:app --reload"
 run scraper in the /scrape endpoint
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a65c7045-c6a6-4a8e-a575-43bdb6b9e16b" />
