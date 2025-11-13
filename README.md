@@ -12,10 +12,7 @@ For API, FastAPI was used and as for database, MongoDB is selected.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44c7b4c2-3eb7-445b-9df7-db730883a7c0" />
 
-The API endpoints are configure to follow the requirements of the project
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/786ddc75-3a21-4b55-9d1c-be3bc8703ae3" />
-
+The API endpoints are configured to follow the requirements of the project
 
 # Running
 Check and update .env to your liking. However, test credentials for test crawling is provided using an empty MongoDB database. 
@@ -24,3 +21,13 @@ Run API using uvicorn main:app --reload
 run scraper in the /scrape endpoint
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a65c7045-c6a6-4a8e-a575-43bdb6b9e16b" />
+
+
+scheduler is configured to start every 24 hours
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6857cef5-1ae5-4bad-bede-262e6179fb4a" />
+
+
+Crawled data sample in FastAPI endpoint
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e047401b-6f97-4df3-bea3-372b46859a24" />
